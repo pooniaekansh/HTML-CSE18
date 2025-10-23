@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h2 align="center">Student Registration Form</h2>
+    <fieldset>
+    <form method="post" action="submit.html">
+
+        <label>Full Name:</label>
+        <input type="text" name="fullname" placeholder="Enter your full name" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter valid email address" required><br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Enter password" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other<br><br>
+
+        <label>Course:</label>
+        <select name="course" required>
+            <option value="">-- Select Course --</option>
+            <option value="CSE">Computer Science Engineering</option>
+            <option value="ECE">Electronics and Communication</option>
+            <option value="ME">Mechanical Engineering</option>
+            <option value="CE">Civil Engineering</option>
+            <option value="EE">Electrical Engineering</option>
+        </select><br><br>
+
+        <label>Contact No:</label>
+        <input type="tel" name="contact" placeholder="Enter phone number" required><br><br>
+
+        <label>Address:</label><br>
+        <textarea name="address" rows="4" cols="40" placeholder="Enter your address" required></textarea><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+
+    </form></fieldset>
+
+    <p align="center">©️ 2025 Student Registration Portal</p>
+
+</body>
+</html>
