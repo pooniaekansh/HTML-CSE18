@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    
+ section{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+ }
+ #right{
+    flex-grow: 1;
+    background-color: rgb(190, 153, 224);
+ }
+ #left{
+    flex-grow: 2;
+    background-color: rgb(141, 78, 204);
+ }
+ </style>
+    <!-- <main>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+    </main> -->
+    <section>
+        <div id="left">left</div>
+        <div id="right">right</div>
+    </section>
+    
+</body>
+</html>
